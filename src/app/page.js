@@ -132,7 +132,7 @@ export default function Home() {
   return (
     <DndProvider backend={HTML5Backend}>
       <div className="container mx-auto p-4">
-        <h1 className="text-2xl font-bold mb-4">Task Management</h1>
+        <h1 className="text-2xl font-bold mb-4">Task Management -TickTick</h1>
         <div className="flex mb-4">
           <button className="bg-blue-500 text-white p-2" onClick={openModal}>
             Add Task

@@ -19,11 +19,20 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      to bottom right,
+      rgba(255, 100, 100, 0.8),
+      rgba(100, 100, 255, 0.8)
+    ),
+    linear-gradient(
+      to top left,
+      rgba(0, 255, 150, 0.5),
+      rgba(255, 200, 50, 0.5)
+    );
+    background-blend-mode: multiply;
+    background-color: rgb(var(--background-start-rgb));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 @layer utilities {
